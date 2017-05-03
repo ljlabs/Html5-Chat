@@ -1,0 +1,39 @@
+/**
+ * Body CSS
+ * background - rgb(153, 204, 255)
+ * primary - rgb(102, 102, 255)
+ * secondary -  rgb(48,63,159)
+ * accent - rgb(153, 153, 255);
+ *
+ */
+html,
+body {
+  height: 100%;
+}
+
+html,
+body,
+input,
+textarea,
+label {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px 	rgb(153, 204, 255);
+}
+
+label {
+  color: rgb(0, 0, 0);
+}
+
+.round-image-view{
+  border-radius: 100%;
+  background:rgb(153, 153, 255);
+  padding:5px;
+  width:50%;
+}
+
+.rounded-message-box{
+  border-radius: 10px;
+  background:rgb(153, 153, 255);
+  padding:1px;
+}

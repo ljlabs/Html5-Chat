@@ -1,0 +1,40 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chat</title>
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+    <!-- load my code -->
+    <script type="text/javascript" src="js/comunication.js"></script>
+    <script type="text/javascript" src="js/users.js"></script>
+    <link href="css/authentication.css" rel="stylesheet" type="text/css" />
+    <link href="css/button.css" rel="stylesheet" type="text/css" />
+    <link href="css/input.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body  class="lower-background-colour">
+    <!-- example content -->
+    <center  style="height:100%;width:100%;">
+      <table  style="height:100%;width:100%;">
+        <tr style="height:90%;width:100%;">
+          <th colspan="2">
+            <iframe id="display" src="messages.html" frameborder="0"  style="overflow:hidden; height:100%;width:100%;">
+            </iframe>
+          </th>
+        </tr>
+        <tr>
+          <th>
+              <input type="text" placeholder="Message" id="message" ></input>
+          </th>
+          <th>
+            <button onClick="send();" style="font-size: 20px;margin: 0 0px 0 0;">
+              send
+            </button>
+          </th>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>

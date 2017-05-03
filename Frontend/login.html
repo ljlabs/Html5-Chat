@@ -1,0 +1,57 @@
+<!--
+  this will let the user enter his username and password to authenticate himself
+  this uses the users.js file with the loginUser() function.
+  it uses the communications.js to do post requests
+ -->
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+    <!-- load my code -->
+    <script type="text/javascript" src="js/comunication.js"></script>
+    <script type="text/javascript" src="js/users.js"></script>
+    <link href="css/login.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body  class="lower-background-colour">
+    <!-- example content -->
+
+
+
+    <div id="sidebar">
+      <div id="rounded-message-box">
+        <h4>
+          Administrators <br>
+          pannle
+        </h4>
+      </div>
+    <br>
+    <div id="sideMenu">
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+        login
+      </button><br>
+    </br>
+      <a href="register.php">
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary">
+        register
+      </button>
+    </a>
+    </div>
+      </div>
+        <div id="content">
+          <h1>Administrative Login</h1>
+          <!-- Accent-colored raised button with ripple -->
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary" onclick="loginUser()" >
+            login
+          </button><br>
+          staff number:   <input type="text" name="username" id="username" value="adm3538638"><br>
+          ID number:  <input type="text" name="password" id="password" value="9602295039089"><br>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

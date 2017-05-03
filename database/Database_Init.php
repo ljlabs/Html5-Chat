@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "root";
-$dbname = "LibraryBOOKS";
+$dbname = "Html5-Chat";
 // Create connection
 $conn = new mysqli($servername, $username, $password);
 // Check connection
